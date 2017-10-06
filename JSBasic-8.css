@@ -14,6 +14,10 @@ body {
   line-height: 1.4;
 }
 
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
 .btnStyle {
   background-color: #ab7379;
   border: none;
@@ -24,9 +28,8 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 70px 115px;
-  width: 10%;
+  font-size: 15px;
+  margin: 70px 22.2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.9s;
 }
@@ -55,4 +58,39 @@ input {
   align-items: center;
   font-size: 40px;
   font-family: sans-serif;
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  .btnStyle {
+    width: 43.5%;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .container {
+    width: 970px;
+    margin: 0 auto;
+  }
+
+  .btnStyle {
+    width: 40%;
+    margin: 60px 47px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+
+  .btnStyle {
+    width: 15%;
+    margin: 70px 56px;
+  }
 }
