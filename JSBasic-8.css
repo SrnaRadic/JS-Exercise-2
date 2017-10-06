@@ -68,8 +68,30 @@ input {
   }
 
   .btnStyle {
-    width: 100%;
-    margin: 20px 10px;
+    width: 40%;
+    margin: 20px 13.6px;
+  }
+
+  .paragraf, .result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 0 0 15px 0;
+  }
+
+  input {
+    width: 50%;
+    height: 50px;
+    border-radius: 7px;
+  }
+
+  .inputStyle {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
   }
 }
 
@@ -82,6 +104,9 @@ input {
   .btnStyle {
     width: 43.5%;
   }
+
+  input {
+    width: 20%;
 }
 
 @media all and (min-width: 992px) {
